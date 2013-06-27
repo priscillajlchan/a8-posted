@@ -6,6 +6,7 @@ $verb = $_POST["verb"];
 $title = $_POST["title"];
 $place = $_POST["place"];
 $adverb = $_POST["adverb"];
+$_POST["email"]
 
 var_dump($_POST);
 
@@ -16,11 +17,11 @@ It wasn't long until he made her his ".$title.".
 Together they moved far away, to a quiet ".$place."
 and lived ".$adverb." ever after. ";
 
-$message = wordwrap ($message, 70, "\r\n");
+$message = wordwrap($message,70,"\r\n");
 
 $headers = "From: nobody@gmail.com";
 
-echo ($message);
-echo mail ("priscillachan__@hotmail.com", "A Mad Lib for You", $message, $headers); 
+echo($message);
+echo mail("priscillachan__@hotmail.com", "A Mad Lib for You", $message, $headers); 
 
 ?> 
