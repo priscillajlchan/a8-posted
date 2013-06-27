@@ -6,7 +6,7 @@ $verb = $_POST["verb"];
 $title = $_POST["title"];
 $place = $_POST["place"];
 $adverb = $_POST["adverb"];
-$_POST["email"]
+$email = $_POST["email"];
 
 var_dump($_POST);
 
